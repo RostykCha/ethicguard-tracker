@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support (billing, security, data questions)
+    url: https://ethicguard.ai/contact
+    about: For anything you'd rather not post publicly, reach us here.
+  - name: EthicGuard website & privacy policy
+    url: https://ethicguard.ai
+    about: Product overview, privacy policy, and full data-flow docs.
