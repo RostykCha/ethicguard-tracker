@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in EthicGuard isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Please don't paste Jira issue content, tokens, or credentials** — EthicGuard is zero-retention and we don't want your data here either. Describe the behaviour instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+  - type: input
+    id: context
+    attributes:
+      label: Jira & app context
+      description: Project type (company- / team-managed), board type (Scrum / Kanban), and app version if you know it.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I've left out confidential Jira content, tokens, and credentials.
+          required: true
